@@ -3,8 +3,13 @@ body {
     /* background-color: #ffffb3; */
     margin: 0;
     padding: 0;
-    background-image: url("pinkDust2.jpg");
+    background-image: url(../images/pinkdust2.jpg);
+    /* /Users/jamesbreckenitch/Desktop/everythingBootcamp/HTML_assignment/Basic-Portfolio/assets/images */
+    /* background-image: url("http://adwallpapers.xyz/uploads/posts/3409-blank-abstract-light-blue-watercolor-background-isolated-on-white.jpg"); */
     color: #777777;
+    position: relative;
+    padding: 0 0 175px 0;
+    min-height: 100%;
 }
 
 
@@ -38,7 +43,7 @@ footer {
     color: #ffffff;
     margin-left: 0;
     margin-right: 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
